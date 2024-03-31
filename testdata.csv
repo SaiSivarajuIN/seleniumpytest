@@ -1,0 +1,8 @@
+NameOfTestCase,TextInput,Password
+test_webForm1,Hello,
+NameOfTestCase,TextInput,Password
+test_webForm2,Hi,password
+NameOfTestCase,TextInput,Password,Textarea,Dropdown (select),Dropdown (datalist),File input,Date picker
+
+
+

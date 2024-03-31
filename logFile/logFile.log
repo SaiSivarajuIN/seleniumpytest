@@ -1,0 +1,6 @@
+2024-03-31 14:31:32,921 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 14:31:33,029 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 14:31:33,247 :INFO : submittedResponse :the message was:Received!
+2024-03-31 14:32:04,389 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 14:32:04,501 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 14:32:04,734 :INFO : submittedResponse :the message was:Received!

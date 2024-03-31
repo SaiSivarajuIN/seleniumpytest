@@ -1,0 +1,586 @@
+2024-03-31 14:32:48,270 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 14:32:48,378 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 14:32:48,614 :INFO : submittedResponse :the message was:Received!
+2024-03-31 14:34:00,001 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 14:34:00,107 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 14:34:00,350 :INFO : submittedResponse :the message was:Received!
+2024-03-31 14:35:42,127 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 14, in submittedResponse
+    message = BC.get_text(self, response.message_lc)
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/utilities/baseClass.py", line 36, in get_text
+    by_element = WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(locator))
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/.venv/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+#0 0x58e8c59288a3 <unknown>
+#1 0x58e8c561e8c6 <unknown>
+#2 0x58e8c5669618 <unknown>
+#3 0x58e8c56696d1 <unknown>
+#4 0x58e8c56ac744 <unknown>
+#5 0x58e8c568b5cd <unknown>
+#6 0x58e8c56a9c19 <unknown>
+#7 0x58e8c568b343 <unknown>
+#8 0x58e8c565c593 <unknown>
+#9 0x58e8c565cf5e <unknown>
+#10 0x58e8c58ec88b <unknown>
+#11 0x58e8c58f07e5 <unknown>
+#12 0x58e8c58da5b1 <unknown>
+#13 0x58e8c58f1372 <unknown>
+#14 0x58e8c58bf8bf <unknown>
+#15 0x58e8c5917768 <unknown>
+#16 0x58e8c591793b <unknown>
+#17 0x58e8c59279f4 <unknown>
+#18 0x742d38094ac3 <unknown>
+
+2024-03-31 14:41:50,701 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 14:41:50,813 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 14:41:51,306 :INFO : submittedResponse :the message was:Received!
+2024-03-31 14:46:44,927 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 14:46:45,031 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 14:46:45,268 :INFO : submittedResponse :the message was:Received!
+2024-03-31 14:51:42,168 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 14:51:42,276 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 14:51:42,501 :INFO : submittedResponse :the message was:Received!
+2024-03-31 14:54:07,876 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 14, in submittedResponse
+    message = BC.get_text(self, response.message_lc)
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/utilities/baseClass.py", line 36, in get_text
+    by_element = WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(locator))
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/.venv/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+#0 0x5fe62ba158a3 <unknown>
+#1 0x5fe62b70b8c6 <unknown>
+#2 0x5fe62b756618 <unknown>
+#3 0x5fe62b7566d1 <unknown>
+#4 0x5fe62b799744 <unknown>
+#5 0x5fe62b7785cd <unknown>
+#6 0x5fe62b796c19 <unknown>
+#7 0x5fe62b778343 <unknown>
+#8 0x5fe62b749593 <unknown>
+#9 0x5fe62b749f5e <unknown>
+#10 0x5fe62b9d988b <unknown>
+#11 0x5fe62b9dd7e5 <unknown>
+#12 0x5fe62b9c75b1 <unknown>
+#13 0x5fe62b9de372 <unknown>
+#14 0x5fe62b9ac8bf <unknown>
+#15 0x5fe62ba04768 <unknown>
+#16 0x5fe62ba0493b <unknown>
+#17 0x5fe62ba149f4 <unknown>
+#18 0x7e59e9e94ac3 <unknown>
+
+2024-03-31 14:54:58,714 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 14, in submittedResponse
+    message = BC.get_text(self, response.message_lc)
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/utilities/baseClass.py", line 36, in get_text
+    by_element = WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(locator))
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/.venv/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+#0 0x6247d317e8a3 <unknown>
+#1 0x6247d2e748c6 <unknown>
+#2 0x6247d2ebf618 <unknown>
+#3 0x6247d2ebf6d1 <unknown>
+#4 0x6247d2f02744 <unknown>
+#5 0x6247d2ee15cd <unknown>
+#6 0x6247d2effc19 <unknown>
+#7 0x6247d2ee1343 <unknown>
+#8 0x6247d2eb2593 <unknown>
+#9 0x6247d2eb2f5e <unknown>
+#10 0x6247d314288b <unknown>
+#11 0x6247d31467e5 <unknown>
+#12 0x6247d31305b1 <unknown>
+#13 0x6247d3147372 <unknown>
+#14 0x6247d31158bf <unknown>
+#15 0x6247d316d768 <unknown>
+#16 0x6247d316d93b <unknown>
+#17 0x6247d317d9f4 <unknown>
+#18 0x796381694ac3 <unknown>
+
+2024-03-31 14:55:53,676 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 14, in submittedResponse
+    message = BC.get_text(self, response.message_lc)
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/utilities/baseClass.py", line 36, in get_text
+    by_element = WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(locator))
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/.venv/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+#0 0x62712f8de8a3 <unknown>
+#1 0x62712f5d48c6 <unknown>
+#2 0x62712f61f618 <unknown>
+#3 0x62712f61f6d1 <unknown>
+#4 0x62712f662744 <unknown>
+#5 0x62712f6415cd <unknown>
+#6 0x62712f65fc19 <unknown>
+#7 0x62712f641343 <unknown>
+#8 0x62712f612593 <unknown>
+#9 0x62712f612f5e <unknown>
+#10 0x62712f8a288b <unknown>
+#11 0x62712f8a67e5 <unknown>
+#12 0x62712f8905b1 <unknown>
+#13 0x62712f8a7372 <unknown>
+#14 0x62712f8758bf <unknown>
+#15 0x62712f8cd768 <unknown>
+#16 0x62712f8cd93b <unknown>
+#17 0x62712f8dd9f4 <unknown>
+#18 0x706811c94ac3 <unknown>
+
+2024-03-31 14:58:05,838 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 14, in submittedResponse
+    message = BC.get_text(self, response.message_lc)
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/utilities/baseClass.py", line 36, in get_text
+    by_element = WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(locator))
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/.venv/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+#0 0x63778af398a3 <unknown>
+#1 0x63778ac2f8c6 <unknown>
+#2 0x63778ac7a618 <unknown>
+#3 0x63778ac7a6d1 <unknown>
+#4 0x63778acbd744 <unknown>
+#5 0x63778ac9c5cd <unknown>
+#6 0x63778acbac19 <unknown>
+#7 0x63778ac9c343 <unknown>
+#8 0x63778ac6d593 <unknown>
+#9 0x63778ac6df5e <unknown>
+#10 0x63778aefd88b <unknown>
+#11 0x63778af017e5 <unknown>
+#12 0x63778aeeb5b1 <unknown>
+#13 0x63778af02372 <unknown>
+#14 0x63778aed08bf <unknown>
+#15 0x63778af28768 <unknown>
+#16 0x63778af2893b <unknown>
+#17 0x63778af389f4 <unknown>
+#18 0x7cf6c1e94ac3 <unknown>
+
+2024-03-31 14:58:55,231 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 14:58:55,324 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 14:58:55,808 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 15:02:20,613 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:02:20,708 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:02:21,302 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 15:03:26,093 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:03:26,190 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:03:26,666 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 15:04:21,961 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:04:22,051 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:04:22,268 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 15:04:45,487 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:04:45,583 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:04:45,788 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 15:06:35,523 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:06:35,614 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:06:35,834 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 15:07:28,019 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:07:28,116 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:07:28,321 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 15:08:02,615 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:08:02,708 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:08:02,923 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 15:08:23,874 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:08:23,967 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:08:24,194 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 15:10:45,404 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:10:45,495 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:10:45,714 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 15:11:56,144 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:11:56,240 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:11:56,473 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 15:12:16,639 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:12:16,733 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:12:16,954 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 15:12:43,398 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:12:43,492 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:12:43,709 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 15:13:17,652 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:13:17,748 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:13:17,972 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 15:13:41,043 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:13:41,136 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:13:41,596 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 15:15:23,627 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:15:23,723 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:15:23,941 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 15:22:17,501 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:22:17,596 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:22:17,823 :INFO : submittedResponse :the message was:Received!
+2024-03-31 15:27:41,089 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:27:41,186 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:27:41,702 :INFO : submittedResponse :the message was:Received!
+2024-03-31 15:28:33,921 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:28:34,013 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:28:34,290 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 15:29:11,911 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:29:12,007 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:29:12,229 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 15:29:38,320 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:29:38,415 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:29:38,635 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 15:29:52,236 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:29:52,327 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:29:52,546 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 15:30:10,727 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:30:10,822 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:30:11,033 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 15:30:45,260 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:30:45,351 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:30:45,679 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 15:31:18,467 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:31:18,628 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:31:18,863 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 15:31:45,903 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:31:45,997 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:31:46,207 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 15:32:21,582 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:32:21,674 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:32:21,934 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 15:32:52,992 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:32:53,091 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:32:53,304 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 15:33:30,364 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:33:30,461 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:33:30,681 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 15:33:57,548 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:33:57,642 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:33:57,860 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 15:34:30,920 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:34:31,017 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:34:31,230 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 15:37:11,022 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:37:11,119 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:37:11,346 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 15:37:27,525 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:37:27,622 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:37:27,839 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 15:37:46,056 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:37:46,149 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:37:46,665 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 15:38:37,959 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:38:38,055 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:38:38,559 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 15:39:26,580 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:39:26,676 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:39:27,168 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 15:41:58,306 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:41:58,398 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:41:58,603 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 15:42:17,012 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:42:17,105 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:42:17,326 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 15:42:43,940 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:42:44,034 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:42:44,247 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 15:44:32,517 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 15:44:32,610 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 15:44:32,827 :INFO : submittedResponse :the message was:Received!
+2024-03-31 16:17:20,225 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 16:17:20,320 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 16:17:20,530 :INFO : submittedResponse :the message was:Received!
+2024-03-31 16:48:00,272 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 16:48:00,374 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 16:48:00,856 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 17:48:14,786 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 17:48:14,877 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 17:48:15,391 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 17:48:54,195 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 17:48:54,285 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 17:48:54,770 :INFO : submittedResponse :the message was:Received!
+2024-03-31 17:51:37,088 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 17:51:37,181 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 17:51:37,409 :INFO : submittedResponse :the message was:Received!
+2024-03-31 17:52:18,279 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 17:52:18,381 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 17:52:18,600 :INFO : submittedResponse :the message was:Received!
+2024-03-31 17:53:32,044 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 17:53:32,392 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 17:53:32,706 :INFO : submittedResponse :the message was:Received!
+2024-03-31 17:54:26,862 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 17:54:26,974 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 17:54:27,237 :INFO : submittedResponse :the message was:Received!
+2024-03-31 17:55:00,855 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 17:55:00,962 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 17:55:01,206 :ERROR : test_webForm1 :Test Case1 got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_webForm1.py", line 11, in test_webForm1
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 18:13:23,084 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 18:13:23,182 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 18:13:23,670 :ERROR : test_testCase1_WebFormWithPassword :Test Case1 WebForm Without Password got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_testCase1_WebFormWithoutPassword.py", line 11, in test_testCase1_WebFormWithPassword
+    pb.responseForm(self).submittedResponse()
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/pages/formResponse.py", line 15, in submittedResponse
+    assert message == "Received"
+AssertionError
+2024-03-31 18:15:02,599 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 18:15:02,694 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 18:15:02,926 :INFO : submittedResponse :the message was:Received!
+2024-03-31 18:15:38,427 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 18:15:38,517 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 18:15:38,742 :INFO : submittedResponse :the message was:Received!
+2024-03-31 18:15:58,062 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 18:15:58,160 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 18:15:58,384 :INFO : submittedResponse :the message was:Received!
+2024-03-31 18:16:11,418 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 18:16:11,511 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 18:16:11,732 :INFO : submittedResponse :the message was:Received!
+2024-03-31 18:45:50,145 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-03-31 18:45:50,231 :INFO : checkTheWebForm :Click on Submit button
+2024-03-31 18:45:50,700 :INFO : submittedResponse :the message was:Received!
