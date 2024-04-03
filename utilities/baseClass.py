@@ -18,7 +18,7 @@ class baseClass:
 
         loggerName = inspect.stack()[1][3]
         logger = logging.getLogger(loggerName)
-        fileHandler = logging.FileHandler('../logFile/'+current_datetime+' .log')
+        fileHandler = logging.FileHandler('../seleniumpytest/logFile/'+current_datetime+' .log')
         formatter = logging.Formatter("%(asctime)s :%(levelname)s : %(name)s :%(message)s")
         fileHandler.setFormatter(formatter)
         logger.addHandler(fileHandler)  # filehandler object

@@ -55,3 +55,11 @@ TypeError: 'NoneType' object is not subscriptable
 2024-04-03 16:08:16,546 :INFO : checkTheWebFormWithPassword :Click on Submit button
 2024-04-03 16:08:16,771 :INFO : submittedResponse :the message was:Received!
 2024-04-03 16:08:16,771 :INFO : submittedResponse :the message was:Received!
+2024-04-03 12:13:58,463 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-04-03 12:13:58,681 :INFO : checkTheWebForm :Click on Submit button
+2024-04-03 12:13:59,202 :INFO : submittedResponse :the message was:Received!
+2024-04-03 12:14:00,561 :INFO : checkTheWebFormWithPassword :Enter the 'Hello' : hello
+2024-04-03 12:14:00,835 :INFO : checkTheWebFormWithPassword :Enter the 'Password' : password
+2024-04-03 12:14:01,035 :INFO : checkTheWebFormWithPassword :Click on Submit button
+2024-04-03 12:14:01,289 :INFO : submittedResponse :the message was:Received!
+2024-04-03 12:14:01,289 :INFO : submittedResponse :the message was:Received!

@@ -3,13 +3,13 @@ import configparser
 
 def getConfig():
     config = configparser.ConfigParser()
-    config.read('../utilities/properties.ini')
+    config.read('../seleniumpytest/utilities/properties.ini')
     return config
 
 
 def getTestData():
     td = configparser.ConfigParser()
-    td.read('../testDataConfig/propertiesTestData.ini')
+    td.read('../seleniumpytest/testDataConfig/propertiesTestData.ini')
     return td
 
 
