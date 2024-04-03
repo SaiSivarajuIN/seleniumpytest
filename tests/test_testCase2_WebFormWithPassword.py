@@ -2,15 +2,15 @@ import pytest
 
 from pages.pageObjects import pageObjects as pb
 from utilities.baseClass import baseClass
-from testDataConfig.testDataConfigurations import *
+from utilities.configurations import *
 
 
 class TestCase2_webForm(baseClass):
     def test_testCase2_WebFormWithPassword(self):
         log = self.getLogger()
-        getData = getTestDat(self)
+        data = getTestData()
         try:
-            pb.webForm(self).checkTheWebFormWithPassword(getData['test_webForm2']['enterTheText'], getData['test_webForm2']['enterThePassword'])
+            pb.webForm(self).checkTheWebFormWithPassword(data['testcase2']['enterTheText'],data['testcase2']['enterThePassword'])
             pb.responseForm(self).submittedResponse()
         except Exception:
             log.exception("Test Case2 WebForm With Password got Failed")

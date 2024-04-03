@@ -1,0 +1,57 @@
+2024-04-03 15:02:56,363 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-04-03 15:02:58,335 :INFO : checkTheWebForm :Click on Submit button
+2024-04-03 15:02:59,569 :INFO : submittedResponse :the message was:Received!
+2024-04-03 15:08:04,147 :INFO : test_sampleTest :Hello
+2024-04-03 15:10:01,922 :ERROR : test_testCase2_WebFormWithPassword :Test Case2 WebForm With Password got Failed
+Traceback (most recent call last):
+  File "/home/sivaraju/Desktop/code/python-selenuim/pythonProject2/tests/test_testCase2_WebFormWithPassword.py", line 13, in test_testCase2_WebFormWithPassword
+    pb.webForm(self).checkTheWebFormWithPassword(getData['test_webForm2']['enterTheText'], getData['test_webForm2']['enterThePassword'])
+TypeError: 'NoneType' object is not subscriptable
+2024-04-03 15:49:54,455 :INFO : checkTheWebFormWithPassword :Enter the 'Hello' : hello
+2024-04-03 15:49:54,543 :INFO : checkTheWebFormWithPassword :Enter the 'Password' : password
+2024-04-03 15:49:54,615 :INFO : checkTheWebFormWithPassword :Click on Submit button
+2024-04-03 15:49:55,043 :INFO : submittedResponse :the message was:Received!
+2024-04-03 15:50:09,831 :INFO : checkTheWebFormWithPassword :Enter the 'Hello' : hello
+2024-04-03 15:50:09,942 :INFO : checkTheWebFormWithPassword :Enter the 'Password' : password
+2024-04-03 15:50:10,012 :INFO : checkTheWebFormWithPassword :Click on Submit button
+2024-04-03 15:50:10,202 :INFO : submittedResponse :the message was:Received!
+2024-04-03 15:50:24,252 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-04-03 15:50:24,364 :INFO : checkTheWebForm :Click on Submit button
+2024-04-03 15:50:24,572 :INFO : submittedResponse :the message was:Received!
+2024-04-03 15:50:28,572 :INFO : checkTheWebFormWithPassword :Enter the 'Hello' : hello
+2024-04-03 15:50:28,930 :INFO : checkTheWebFormWithPassword :Enter the 'Password' : password
+2024-04-03 15:50:29,026 :INFO : checkTheWebFormWithPassword :Click on Submit button
+2024-04-03 15:50:29,501 :INFO : submittedResponse :the message was:Received!
+2024-04-03 15:50:29,501 :INFO : submittedResponse :the message was:Received!
+2024-04-03 15:52:35,785 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-04-03 15:52:35,877 :INFO : checkTheWebForm :Click on Submit button
+2024-04-03 15:52:36,083 :INFO : submittedResponse :the message was:Received!
+2024-04-03 15:52:40,171 :INFO : checkTheWebFormWithPassword :Enter the 'Hello' : hello
+2024-04-03 15:52:40,262 :INFO : checkTheWebFormWithPassword :Enter the 'Password' : password
+2024-04-03 15:52:40,337 :INFO : checkTheWebFormWithPassword :Click on Submit button
+2024-04-03 15:52:40,540 :INFO : submittedResponse :the message was:Received!
+2024-04-03 15:52:40,540 :INFO : submittedResponse :the message was:Received!
+2024-04-03 16:05:22,326 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-04-03 16:05:22,435 :INFO : checkTheWebForm :Click on Submit button
+2024-04-03 16:05:22,933 :INFO : submittedResponse :the message was:Received!
+2024-04-03 16:05:27,596 :INFO : checkTheWebFormWithPassword :Enter the 'Hello' : hello
+2024-04-03 16:05:27,746 :INFO : checkTheWebFormWithPassword :Enter the 'Password' : password
+2024-04-03 16:05:27,814 :INFO : checkTheWebFormWithPassword :Click on Submit button
+2024-04-03 16:05:28,017 :INFO : submittedResponse :the message was:Received!
+2024-04-03 16:05:28,017 :INFO : submittedResponse :the message was:Received!
+2024-04-03 16:06:58,881 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-04-03 16:06:58,965 :INFO : checkTheWebForm :Click on Submit button
+2024-04-03 16:06:59,447 :INFO : submittedResponse :the message was:Received!
+2024-04-03 16:07:02,841 :INFO : checkTheWebFormWithPassword :Enter the 'Hello' : hello
+2024-04-03 16:07:02,928 :INFO : checkTheWebFormWithPassword :Enter the 'Password' : password
+2024-04-03 16:07:03,002 :INFO : checkTheWebFormWithPassword :Click on Submit button
+2024-04-03 16:07:03,190 :INFO : submittedResponse :the message was:Received!
+2024-04-03 16:07:03,190 :INFO : submittedResponse :the message was:Received!
+2024-04-03 16:08:11,795 :INFO : checkTheWebForm :Enter the 'Hello'
+2024-04-03 16:08:11,893 :INFO : checkTheWebForm :Click on Submit button
+2024-04-03 16:08:12,098 :INFO : submittedResponse :the message was:Received!
+2024-04-03 16:08:16,374 :INFO : checkTheWebFormWithPassword :Enter the 'Hello' : hello
+2024-04-03 16:08:16,476 :INFO : checkTheWebFormWithPassword :Enter the 'Password' : password
+2024-04-03 16:08:16,546 :INFO : checkTheWebFormWithPassword :Click on Submit button
+2024-04-03 16:08:16,771 :INFO : submittedResponse :the message was:Received!
+2024-04-03 16:08:16,771 :INFO : submittedResponse :the message was:Received!

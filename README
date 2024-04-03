@@ -6,7 +6,7 @@ pip install pytest-html
 
 
 pytest --browser_name edge
-py.test --html=./reports/report.html
+py.test --html=../reports/report.html
 pytest --browser_name edge --html=./reports/report1.html
 
 jenkins junit result publish
