@@ -17,3 +17,54 @@ pytest --alluredir=%allure_result_folder% ./tests
 allure serve %allure_result_folder%
 
 
+
+get the browser type dynamically for different testcases from testdata.ini file
+
+# content of testdata.ini
+[TestCase1]
+browser = chromium
+
+[TestCase2]
+browser = firefox
+
+[TestCase3]
+browser = webkit
+
+
+# conftest.py
+import pytest
+from playwright.sync_api import sync_playwright
+import configparser
+import os
+
+def get_browser_type(test_case_name):
+    config = configparser.ConfigParser()
+    config.read('testdata.ini')
+    return config[test_case_name]['browser']
+
+@pytest.fixture(scope="function")
+def browser(request):
+    test_case_name = request.node.name
+    browser_type = get_browser_type(test_case_name)
+    with sync_playwright() as p:
+        browser = p[browser_type].launch()
+        yield browser
+        browser.close()
+
+# test_example.py
+def test_TestCase1(browser):
+    # This test will use Chromium because of the testdata.ini configuration
+    page = browser.new_page()
+    page.goto("https://example.com")
+    # Your test code here
+
+def test_TestCase2(browser):
+    # This test will use Firefox because of the testdata.ini configuration
+    # Your test code here
+
+def test_TestCase3(browser):
+    # This test will use Webkit because of the testdata.ini configuration
+    # Your test code here
+
+
+
